@@ -10,4 +10,4 @@ xxx
 ## wiki 3
 xxx
 
-[Obnovit.png]
+[[Obnovit.png]]
