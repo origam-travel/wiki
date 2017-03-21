@@ -16,7 +16,7 @@
   <li><a href="{{ node_url }}">{{ slug }}</a></li>
   {% endif %}
   {% if slug_depth == 1 and page.url == '/' and slug != 'search.json' and   slug != 'sitemap.xml' %}
-  <li><a href="{{ node_url }}">{{{slug}}</a></li>
+  <li><a href="wiki/{{ node_url }}">{{{slug}}</a></li>
   {% endif %}
   {% endif %}
   {% endfor %}
