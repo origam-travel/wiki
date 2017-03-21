@@ -13,10 +13,10 @@
   {% assign slug_depth = forloop.index %}
   {% endfor %}
   {% if slug_depth == page_depth and page_parent == node_parent %}
-  <li><a href="wiki/{{ node_url }}">{{ slug }}</a></li>
+  <li><a href="{{ node_url }}">{{ slug }}</a></li>
   {% endif %}
   {% if slug_depth == 1 and page.url == '/' and slug != 'search.json' and   slug != 'sitemap.xml' %}
-  <li><a href="wiki/{{ node_url }}">{{{slug}}</a></li>
+  <li><a href="{{ node_url }}">{{{slug}}</a></li>
   {% endif %}
   {% endif %}
   {% endfor %}
